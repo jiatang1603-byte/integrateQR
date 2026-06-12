@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@305;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans TC", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-natural-cream: #FDFCF8;
+  --color-natural-slate: #2D3E50;
+  --color-natural-dark-green: #354F52;
+  --color-natural-green: #52796F;
+  --color-natural-light-green: #84A59D;
+  --color-natural-border: #E6EBE0;
+  --color-natural-soft-green: #CAD2C5;
+  --color-natural-sage-bg: #F7F9F4;
+}
+
+/* Base style resets to match industrial premium natural feel */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-natural-cream);
+  color: var(--color-natural-slate);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pulse animation for visitor badge */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.95;
+  }
+}
+
+.animate-pulse-soft {
+  animation: softPulse 2s infinite ease-in-out;
+}
+

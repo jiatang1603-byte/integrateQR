@@ -1,0 +1,6 @@
+{
+  "name": "QR Code 入口選單頁",
+  "description": "專為工廠門口與櫃檯設計的「QR Code 入口選單頁」網站。提供訪客登記表、滿意度調查表與官方 LINE 入口快速導向，並結合輕微精美、不喧賓奪主的端午節裝飾元素。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
