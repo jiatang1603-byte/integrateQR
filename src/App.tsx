@@ -169,7 +169,7 @@ export default function App() {
         </div>
 
         {/* ENLARGED LINKS GRID SYSTEM - Scaled up spacing to gap-8 and elegant sizing */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto w-full gap-8">
           {LANDING_LINKS.map((link) => (
             <a
               id={`card-link-${link.id}`}

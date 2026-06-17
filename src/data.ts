@@ -39,18 +39,6 @@ export const LANDING_LINKS: LinkItem[] = [
     accentColor: "border-natural-border bg-white hover:bg-natural-sage-bg hover:border-natural-light-green/40 text-natural-dark-green",
     hoverColor: "shadow-natural-soft-green/30",
     textColor: "text-natural-light-green",
-  },
-  {
-    id: "line-official",
-    title: "官方 LINE 帳號入口",
-    subtitle: "Official LINE Contact",
-    description: "加入佳堂官方 LINE 帳號，可接收即時廠區須知、緊急聯絡通訊及一對一專人客服服務。",
-    url: "https://line.me/R/ti/p/@616hphcx?oat_content=qr#~",
-    icon: "MessageSquareMore",
-    badge: "官方專屬",
-    accentColor: "border-natural-border bg-white hover:bg-natural-sage-bg hover:border-natural-green/45 text-natural-dark-green",
-    hoverColor: "shadow-natural-soft-green/30",
-    textColor: "text-natural-dark-green",
   }
 ];
 
